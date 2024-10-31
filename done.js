@@ -14,11 +14,11 @@ function main(){
 }
 // Define a function called askFive and call it from inside main().
 function askFive(){
-    let score = 0;
+    let wrong = 0;
     for (let question = 1; question <= 5; question++){
-    score += askQuestion(question);
+    wrong += askQuestion(question);
     }
-    return score;
+    return wrong;
 }
 // Define a function called askQuestion and call it from inside askFive() as askQuestion(1);
 function askQuestion(question){
