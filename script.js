@@ -36,7 +36,7 @@ function askQuestion(question){
         return 0;
     }
     else {
-        alert("Incorrect");
+        alert("incorrect");
         return 1;
     }
 }
